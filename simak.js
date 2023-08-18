@@ -21,9 +21,9 @@ const refs = {
   list: document.getElementById("list"),
 };
 
-refs.searchForm.addEventListener("submit", searchWeater);
+refs.searchForm.addEventListener("submit", searchWeather);
 
-function searchWeater(e) {
+function searchWeather(e) {
   e.preventDefault();
 
   const { city, days } = e.currentTarget.elements;
